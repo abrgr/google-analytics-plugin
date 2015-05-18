@@ -44,7 +44,7 @@
   </platform>
 
   <platform name="android">
-    <dependency id="com.google.playservices@19.0.0" />
+    <dependency id="googleplayservices-cordova-plugin" url="https://github.com/abrgr/googleplayservices-cordova-plugin" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="UniversalAnalytics">
